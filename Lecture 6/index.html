@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h3>DOM Manipulation</h3>
+    <h4>Selecting with id</h4>
+    <p>document.getElementById("myId")</p><hr>
+    <h4>Selecting with class</h4>
+    <p>document.getElementsByClassName("myClass")</p><hr>
+    <h4>selecting with tag</h4>
+    <p>document.getElementsByTagName("p")</p><br><hr>
+    <p>But there is a better way to access the elements which are the query selectors</p><br>
+    <h4>Selecting with querySelector</h4>
+    <p>document.querySelector("#myId") <br>//Returns first element</p><hr>
+    <h4>Selecting with querySelectorAll</h4>
+    <p>document.querySelectorAll(".myClass") <br>//Returns a Nodelist</p><hr>
+    <h4>Properties</h4>
+    <p><b>tagname: </b>returns tag for element nodes.</p>
+    <p><b>innerText: </b>returns the text content of the element and all its children.</p>
+    <p><b>innerHTML: </b>returns the plain text or HTML content in its elements.</p>
+    <p><b>innerContent: </b>returns textual content even for hidden elements.</p>
+    <script src="script.js"></script>
+</body>
+</html>
