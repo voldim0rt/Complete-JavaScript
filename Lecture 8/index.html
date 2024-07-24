@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+<body>
+    <h3>Events</h3><hr>
+    <p>The change in the state of object is known as an event. <br>
+    Events are fired to notify the code of "interesting changes" that may affect the code execution</p>
+    <p>
+        <ul>
+            <li>Mouse events(click, double click etc.)</li>
+            <li>Keyboard events(keypress, keyup, keydown)</li>
+            <li>Form events(submit etc)</li>
+            <li>Print event & many more</li>
+        </ul>
+    </p> <hr>
+    <h4>Event Objects</h4>
+    <p>It is a special object that has the details about the event. <br>
+    All the event handlers have access to the Event object's properties and methods. <br><br>
+    <b>node.event = (e) =>{</b> <br>
+        //handle here  <br>
+    }
+    <br><br>
+    e.target, e.type, e.clientX, e.clientY.  
+</p><hr>
+<h4>Event Listeners</h4>
+<p>node.addEventListener(event, callback) <br> <br>
+node.removeEventListener(event, callback)</p>
+<p>*Note: the callback reference should be same to remove.</p>
+    <script src = "script.js"></script>
+</body>
+</html>
