@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object</title>
+</head>
+<body>
+    <h1>Classes and Objects</h1>
+    <h3>Prototype in JS</h3>
+    <p>A Javascript object is an entity having state and behaviour(properties and method). <br>
+    JS objects have a special property called Prototype. <br>
+We can set prototype using __proto__</p>
+
+<p>*If object & prototype have same method, object's method will be used.</p>
+<h3>Classes in JS</h3>
+<p>Class is a program-code template for creating objects. <br>
+Those objects will have some state(variables) & some behaviour(functions) inside it. <br><br><br>
+class MyClass { <br> 
+constructor() {...} <br>
+myMethod(){...} <br>
+} <br>let myObj = new MyClass();</p> 
+<h4>constructor() method: </h4>
+<ul>
+    <li>automatically invoked by new</li>
+    <li>intializes object</li>
+</ul>
+ <h3>Inheritance in JS</h3>
+ <p>Inheritance means passing down the properties & methods from parent class to child class</p>
+ <br> class Parent { <br> }
+<br> <br>Class Child extends Parent { <br>  } </p><br><br>
+<p>* If Child & Parent have the same method, child's method will be used(Method overriding).</p>
+<h3>Super keyword</h3>
+<p><b>The super keyword is used called constructor of its parent class to access the parent's properties and methods.</b></p><br><br>
+super(args)  //calls Parent's constructor 
+super.parentMethod(args)
+    <script src = "script.js"></script>
+</body>
+</html>
