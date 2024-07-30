@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promises</title>
+</head>
+<body>
+    <h3>Promises</h3>
+    <div>
+        <p id="p2">Promise is for "eventual" completion of task. It is an object in JS. It is a solution to callback hell. <br>
+        <br>let promise = new Promise((resolve, reject) => {...}) <br><br><br>*resolve & reject are callbacks provided by JS.
+        </p>
+    </div>
+
+    <h3>A JS Promise object can be: </h3>
+    <div>
+        <ul>
+            <li>Pending: the result is undefined.</li>
+            <li>Resolved: the result is a value(fulfilled).--------resolve(result)</li>
+            <li>Rejected: the result is an error object. -------reject(error)</li>
+        </ul>* Promise has state(pending, fulfilled) & and some result.(result for resolve & error for reject).
+        <p><b>.then() & .catch()</b> <br> 
+        promise.then((res) => {...}) <br>
+        promise.catch((err) => {...})</p>
+    </div>
+    <script src="Promises.js"></script>
+</body>
+</html>

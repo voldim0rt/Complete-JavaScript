@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callbacks</title>
+</head>
+<body>
+    <h1>Sync in JS:</h1>
+
+    <div>
+      <h3 id="sync">Synchronous</h3>
+    </div>
+    <div>
+      <p id="p1">Synchronous means the code runs in a particular sequence instructions gives in the program. <br>Each
+        instruction waits for the previous intruction to complete its execution.</p>
+    </div>
+    <hr>
+    <div>
+      <h3 id="async">Asynchronous</h3>
+    </div>
+    <div>
+      <p id="p2">Due to synchronous programming, sometimes <b>imp</b> instructions get blocked due to some previous <br>
+        instructions, which causes a delay in the UI. Aynchronous code execution allows to execute next <br> instructions
+        immediately and doesn't block the flow.</p>
+    </div><hr>
+    <div>
+    <h3 id="async">Callback Hell</h3>
+    </div>
+    <div>
+      <p id="p2">Nested callbacks stacked below one another forming a pyramid structure(Pyramid of Doom). <br><br>
+    This style of progamming becomes difficult to understand & manage.</p>
+    </div> <hr>
+    <div>
+      <h3 id="async">Promises</h3>
+      </div>
+      <div>
+        <p id="p2">Promise is for "eventual" completion of task. It is an object in JS. It is a solution to callback hell. <br>
+        <br>let promise = new Promise((resolve, reject) => {...}) <br><br><br>*resolve & reject are callbacks provided by JS.
+        </p>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
